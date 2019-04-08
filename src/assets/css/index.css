@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.todo-item {
+  line-height: 40px;
+}
+
+.completed {
+  text-decoration-line: line-through;
+  text-decoration-color: #6c757d;
+  text-decoration-style: solid;
+  font-style: italic;
+}
+
+@import '~bootstrap/dist/css/bootstrap.css'
