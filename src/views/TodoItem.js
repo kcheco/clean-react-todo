@@ -19,8 +19,7 @@ export default class TodoItem extends Component {
         </div>
         <div className="col-8">
           <label
-            className={ todo.completed ? "completed" : "" }
-          >
+            className={ todo.completed ? "completed" : "" } >
             { todo.taskName }
           </label>
         </div>
