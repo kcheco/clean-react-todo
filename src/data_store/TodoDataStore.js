@@ -45,14 +45,6 @@ export default class TodoDataStore {
     }
   }
 
-  showPending() {
-    return this.todos.filter( t => t.completed === false )
-  }
-
-  showCompleted() {
-    return this.todos.filter( t => t.completed === true )
-  }
-
   [_generateId]() {
     return Date.now() + (Math.floor(Math.random() * 1000000000000));
   }
